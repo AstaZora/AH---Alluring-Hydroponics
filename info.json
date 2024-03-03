@@ -1,0 +1,15 @@
+{
+    "name": "AH-Alluring-Hydroponics",
+    "version": "0.0.01",
+    "factorio_version": "1.1",
+    "date": "2024-03-02", 
+    "title": "Alluring Hydroponics",
+    "author": "AstaZora",
+    "homepage": "",
+    "description": "A mod that adds hydroponics to the game, using unique genetics and alien produce to create a new way to farm.",
+    "dependencies": [
+        "base >= 1.0.0",
+        "AB-Breathe-Easy-Arboretum >= 0.0.1",
+        "AC-Aquaculture >= 0.0.1"
+      ]
+}

@@ -22,7 +22,7 @@ data:extend({
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
                 base_level = -1,
-                pipe_connections = {{ type="input", position = {0, -2.2} }}
+                pipe_connections = {{ type="input", position = {0.5, -4.5} }}
             },
             {
                 production_type = "output",
@@ -30,12 +30,12 @@ data:extend({
                 pipe_covers = pipecoverspictures(),
                 base_area = 10,
                 base_level = 1,
-                pipe_connections = {{ type="output", position = {0, 2} }}
+                pipe_connections = {{ type="output", position = {0.5, 4.2} }}
             },
             off_when_no_fluid_recipe = true
         },
-        collision_box = {{-1.9, -1.9}, {1.9, 1.9}},
-        selection_box = {{-2, -2}, {2, 2}},
+        collision_box = {{-3.9, -3.9}, {3.9, 3.9}},
+        selection_box = {{-4, -4}, {4, 4}},
         animation = {
             layers = {
                 {
@@ -45,6 +45,7 @@ data:extend({
                     height = 160,
                     frame_count = 1,
                     shift = {0, 0},
+                    scale = 2,
                     hr_version = {
                         filename = "__AH-Alluring-Hydroponics__/graphics/entity/Hydroponics-Bay-T3-hr.png",
                         priority = "high",
@@ -52,7 +53,7 @@ data:extend({
                         height = 320,
                         frame_count = 1,
                         shift = {0, 0},
-                        scale = 0.5
+                        scale = 1
                     }
                 }
 

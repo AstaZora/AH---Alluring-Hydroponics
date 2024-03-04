@@ -7,7 +7,7 @@ data:extend({
         icon_size = 64,
         subgroup = "raw-resource",
         order = "a[coal]",
-        stack_size = 50
+        stack_size = 100
     },
     {
         type = "item",
@@ -75,6 +75,16 @@ data:extend({
     {
         type = "item",
         name = "trencher-moss",
+        icon = "__base__/graphics/icons/coal.png",
+        icon_size = 64,
+        subgroup = "raw-resource",
+        order = "a[coal]",
+        stack_size = 50
+    },
+    --Fish Feed
+    {
+        type = "item",
+        name = "fish-feed",
         icon = "__base__/graphics/icons/coal.png",
         icon_size = 64,
         subgroup = "raw-resource",
